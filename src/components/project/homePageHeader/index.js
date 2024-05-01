@@ -36,8 +36,8 @@ export default () => {
           max-w-md
         `}>
           <h1 className='text-6xl'>
-            <i className='text-gray-600 dark:text-gray-400'>The</i>  {`${siteConfig.title}`}
-            <br /> <i className='text-gray-600 dark:text-gray-400'>library for writers</i>
+            <i className='text-gray-600 dark:text-gray-400'></i>  {`${siteConfig.title}`}
+            <br /> <i className='text-gray-600 dark:text-gray-400'>Local-first blog management library</i>
           </h1>
           <p className={`text-lg `}>
             An open source library for writing platform agnostic blog posts.
