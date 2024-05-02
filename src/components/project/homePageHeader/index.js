@@ -1,15 +1,11 @@
 import React from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Link from '@docusaurus/Link'
-// import LogoAnimated from '../logo/animated'
 import LogoStatic from '../logo/static/index.svg'
 
-// https://iconscout.com/free-icon/dessert-1560788
 export default () => {
   const { siteConfig } = useDocusaurusContext()
-  return <div className={`             
-        `}>
-    <div class={`
+  return  <div class={`
         md:mt-16
         md:mb-2
         px-6
@@ -37,15 +33,12 @@ export default () => {
         `}>
           <h1 className='text-6xl'>
             <i className='text-gray-600 dark:text-gray-400'></i>  {`${siteConfig.title}`}
-            <br /> <i className='text-gray-600 dark:text-gray-400'>Local-first blog management</i>
+            <br /> <i className='text-5xl text-gray-600 dark:text-gray-400'>Local-first blog management</i>
           </h1>
           <p className={`text-lg `}>
             An open source library for writing platform agnostic blog posts.
             Every article is self contained and can be published to numerous online platforms like Medium or Dev.To.
-            Felwine aims to simplify form building across various front-end frameworks.
-            Felwine defines a protocol for defining form inputs
-            as a sole source of truth (data type, behaviour, validation) in json, which is interpreted
-            by a platform-specific felwine engine.
+            
             <br />
             🍨
           </p>
@@ -70,9 +63,6 @@ export default () => {
           </div>
         </div>
       </div>
-    </div>
-
-    {/* <FeatureWidget id={'emailable'} /> */}
-
+    
   </div>
 }
