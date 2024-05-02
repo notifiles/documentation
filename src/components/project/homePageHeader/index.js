@@ -37,7 +37,7 @@ export default () => {
         `}>
           <h1 className='text-6xl'>
             <i className='text-gray-600 dark:text-gray-400'></i>  {`${siteConfig.title}`}
-            <br /> <i className='text-gray-600 dark:text-gray-400'>Local-first blog management library</i>
+            <br /> <i className='text-gray-600 dark:text-gray-400'>Local-first blog management</i>
           </h1>
           <p className={`text-lg `}>
             An open source library for writing platform agnostic blog posts.
