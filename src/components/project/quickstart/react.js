@@ -1,109 +1,42 @@
 import React from 'react'
-import CodeBlock from '@theme/CodeBlock'
 import BashTabs from '@site/src/components/generic/bashTabs'
-
+import CodeBlock from '@theme/CodeBlock'
 export default ({ }) => <div class={`                     
         `}>
   <p className={`text-lg font-bold`}>
     1. Install felwine and a component library
   </p>
-  <BashTabs npm={`npm install @felwine/react @felwine-community/react-mui`} />
+  <BashTabs npm={`npm install -g felwine`} />
 
   <p className={`text-lg font-bold`}>
-    2. Define inputs
+    2. Create a project
   </p>
-  <CodeBlock language="jsx">
-    {`const inputs = [
-  {
-    component: 'input',
-    id: 'email',
-    label: 'Email',
-    type: "string",
-    params: {
-      type: 'email',
-      placeholder: "email@domain.com"
-    },
-    validations: [
-      {
-        kind: "format",
-        value: "email",
-        message: 'Invalid email format',
-      },
-      {
-        kind: "required",
-        value: true,
-        message: "This field can't be blank",
-      },
-    ],
-  },
-  {
-    component: 'inputPassword',
-    label: 'Password',
-    id: 'password',
-    type: "string",
-    params: {
-      type: 'password',
-      autoComplete: "current-password",
-      placeholder: "xxxx-xxxx-xxxx"
-    },
-    validations: [
-      {
-        kind: "matches",
-        value: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/,
-        message: 'Invalid password, must contain at least 8 characters and at most 18 characters',
-      },
-      {
-        kind: "required",
-        value: true,
-        message: "This field can't be blank",
-      },
-    ]
-  },
-  {
-    component: 'submit',
-    params: {
-      text: 'Continue'
-    }
-  },
-]`}
+  <CodeBlock language="bash">
+    {`felwine new`}
   </CodeBlock>
 
   <p className={`text-lg font-bold`}>
-    3. Provide initial values (optional)
+    3. Add a platform (optional)
   </p>
 
-  <CodeBlock language="jsx">
-    {`const values = {
-    email: cookies.get('email'),
-}`}
+  <CodeBlock language="bash">
+    {`felwine platform add`}
   </CodeBlock>
+  
+  <p className={`text-lg font-bold mb-2`}>
+    4. Create an article
+  </p>
+  The post is written in markdown, you can add images and tables.
+  <CodeBlock language="bash">
+    {`felwine post new`}
+  </CodeBlock>
+  
+  
   <p className={`text-lg font-bold`}>
-    4. Render forms and handle submit
+    5. Sync the project
   </p>
-
-  <CodeBlock language="jsx">
-    {`import Felwine from '@felwine/react'
-import OvideMui from '@felwine-community/react-mui'
-
-export default (props) => {
-  const onSubmit = async (values, { setSubmitting }) => {
-    try {
-      const { email, password } = values
-      //... do login      
-    } catch (e) {
-      console.log(e)      
-    }
-  }
-
-  return <>      
-      <h3>Login</h3>            
-      <Felwine
-        components={[OvideMui]}
-        values={values}        
-        inputs={inputs}
-        onSubmit={onSubmit}
-         />      
-    </>
-}`}
+  <CodeBlock language="bash">
+    {`felwine sync`}
   </CodeBlock>
+ 
 </div>

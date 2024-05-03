@@ -2,18 +2,18 @@ import React from 'react';
 
 export default [
   {
-    title: 'Declarative',
+    title: 'Declarative and local',
     // Svg: require('@site/static/img/noun-build-3738502.svg').default,
     Svg: require('@site/static/img/noun-input-1678871.svg').default,
     description: (
       <>
-        The JSON based form declaration is what separates Felwine from other frameworks. Simply give an array of inputs and component libraries to find their implementation.
+        The JSON based form declaration is what separates Felwine from other frameworks. Simply give.
       </>
     ),
     url: '/docs/concepts'
   },
   {
-    title: 'Predictable, scalable clean forms',
+    title: 'Archival',
     Svg: require('@site/static/img/noun-photo-5578498.svg').default,
     // Svg: require('@site/static/img/noun-question-3323941.svg').default,
     description: (
