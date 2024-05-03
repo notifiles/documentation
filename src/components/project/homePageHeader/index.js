@@ -33,14 +33,21 @@ export default () => {
         `}>
           <h1 className='text-6xl'>
             <i className='text-gray-600 dark:text-gray-400'></i>  {`${siteConfig.title}`}
-            <br /> <i className='text-5xl text-gray-600 dark:text-gray-400'>Local-first blog management</i>
+            <br /> 
+            <i className='text-3xl 
+            leading-tight 
+            text-gray-600 
+            dark:text-gray-400'>
+              Local-first blog management
+            </i>
           </h1>
           <p className={`text-lg `}>
             An open source library for writing platform agnostic blog posts.
-            Every article is self contained and can be published to numerous online platforms like Medium or Dev.To.
-            
+            Every article is self contained and can be published to numerous online platforms 
+            like Medium, Wordpress, Dev.To or Hasnode.
+            Take control of your intellectual property without concessions.            
             <br />
-            🍨
+            ✍️
           </p>
           <div className={`
             grid 
