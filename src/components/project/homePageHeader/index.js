@@ -42,10 +42,10 @@ export default () => {
             </i>
           </h1>
           <p className={`text-lg `}>
-            Local-first blog management made right.
+            <b>Local-first</b> blog management made right.
             An open source library for writing platform agnostic blog posts.
-            Every article is self contained and can be published to numerous online platforms 
-            like Medium, Wordpress, Dev.To or Hasnode.
+            Every article is <b>self contained</b> and can be published to 
+            numerous online platforms including <b>Medium, Wordpress, Dev.To or Hasnode</b>.
             Take control of your intellectual property without concessions.            
             <br />
             ✍️
