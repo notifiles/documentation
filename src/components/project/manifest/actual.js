@@ -23,12 +23,9 @@ justify-center
             text-lg 
             space-y-2
             `}>
-        <li className=''>Easy to read</li>
-        <li className=''>Easy to debug</li>
-        <li className=''>Separate declaration from implementation</li>
-        <li className=''>Reuse components in a project</li>
-        <li className=''>Reuse component libraries across projects</li>
-        <li className=''>Have a unique multi-platform specification and behavior of our forms</li>
+        <li className=''>Write whenever I want</li>
+        <li className=''>Publish wherever I wish</li>
+        <li className=''>Keep my stories</li>        
       </ul>
       {!noLink && <p>
         <Link

@@ -7,7 +7,7 @@ import Sample from '../components/project/quickstart'
 import HomepageFeatures2 from '../components/project/homepageFeatures2'
 // import Pollination from '../components/project/pollination'
 import Manifest from '../components/project/manifest'
-import Decouple from '../components/project/decouple'
+// import Decouple from '../components/project/decouple'
 
 export default () => {
   const { siteConfig } = useDocusaurusContext()
@@ -19,7 +19,7 @@ export default () => {
       <main className='pb-16'>        
         <Framework />
         <Sample />
-        <Decouple />
+        {/* <Decouple /> */}
         <HomepageFeatures2 />        
         {/* <Pollination />   */}
         <Manifest  align={'left'}/>         
