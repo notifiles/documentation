@@ -2,12 +2,13 @@ import React from 'react';
 
 export default [
   {
-    title: 'Declarative and local',
+    title: 'Sole source of truth',
     // Svg: require('@site/static/img/noun-build-3738502.svg').default,
     Svg: require('@site/static/img/noun-input-1678871.svg').default,
     description: (
       <>
-        The JSON based form declaration is what separates Felwine from other frameworks. Simply give.
+        The JSON based form declaration is what separates Felwine from other frameworks. Simply give. 
+        The markdown based local posts are standard.
       </>
     ),
     url: '/docs/concepts'
@@ -24,7 +25,7 @@ export default [
   },
   {
     // title: 'All declarative transformers and validators',
-    title: 'Extensible',
+    title: 'Multi-platforms',
     // Svg: require('@site/static/img/noun-release-5004142.svg').default,
     Svg: require('@site/static/img/noun-add-1519374.svg').default,
     // Svg: require('@site/static/img/noun-settings-1269041.svg').default,
