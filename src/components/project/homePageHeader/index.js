@@ -38,10 +38,11 @@ export default () => {
             leading-tight 
             text-gray-600 
             dark:text-gray-400'>
-              Local-first blog management
+              
             </i>
           </h1>
           <p className={`text-lg `}>
+            Local-first blog management made right.
             An open source library for writing platform agnostic blog posts.
             Every article is self contained and can be published to numerous online platforms 
             like Medium, Wordpress, Dev.To or Hasnode.
