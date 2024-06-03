@@ -46,7 +46,7 @@
         <mxCell id="jO4-bG8q1z7JqDZY6VAb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=openThin;endFill=0;fontFamily=Space Grotesk;" edge="1" parent="1" source="GkBf_ReJm_KXZPCguamX-12" target="GkBf_ReJm_KXZPCguamX-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GkBf_ReJm_KXZPCguamX-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Felwine&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fontFamily=Space Grotesk;startSize=30;" vertex="1" parent="1">
+        <mxCell id="GkBf_ReJm_KXZPCguamX-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Notifiles&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fontFamily=Space Grotesk;startSize=30;" vertex="1" parent="1">
           <mxGeometry x="430" y="180" width="270" height="350" as="geometry" />
         </mxCell>
         <mxCell id="GkBf_ReJm_KXZPCguamX-14" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Space+Grotesk&quot;&gt;Generate schema&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Space Grotesk;" vertex="1" parent="GkBf_ReJm_KXZPCguamX-12">
@@ -143,7 +143,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xv80PjTKIiDQ5PU-Z0Gu-6" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Space+Grotesk&quot; face=&quot;Space Grotesk&quot;&gt;App &lt;br&gt;&lt;i&gt;Felwine&lt;/i&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="Xv80PjTKIiDQ5PU-Z0Gu-1" vertex="1">
+        <mxCell id="Xv80PjTKIiDQ5PU-Z0Gu-6" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Space+Grotesk&quot; face=&quot;Space Grotesk&quot;&gt;App &lt;br&gt;&lt;i&gt;Notifiles&lt;/i&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="Xv80PjTKIiDQ5PU-Z0Gu-1" vertex="1">
           <mxGeometry x="585" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Xv80PjTKIiDQ5PU-Z0Gu-7" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Space+Grotesk&quot; face=&quot;Space Grotesk&quot;&gt;App database&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="Xv80PjTKIiDQ5PU-Z0Gu-1" vertex="1">
@@ -188,7 +188,7 @@
         <mxCell id="4vjGP8RohrMbeOf8X52F-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="Xv80PjTKIiDQ5PU-Z0Gu-1" source="4vjGP8RohrMbeOf8X52F-2" target="4vjGP8RohrMbeOf8X52F-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4vjGP8RohrMbeOf8X52F-2" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Space+Grotesk&quot; face=&quot;Space Grotesk&quot;&gt;Felwine&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Xv80PjTKIiDQ5PU-Z0Gu-1">
+        <mxCell id="4vjGP8RohrMbeOf8X52F-2" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Space+Grotesk&quot; face=&quot;Space Grotesk&quot;&gt;Notifiles&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Xv80PjTKIiDQ5PU-Z0Gu-1">
           <mxGeometry x="545" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4vjGP8RohrMbeOf8X52F-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Space Grotesk;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpace%2BGrotesk;" edge="1" parent="Xv80PjTKIiDQ5PU-Z0Gu-1">

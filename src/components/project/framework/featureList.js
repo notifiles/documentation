@@ -7,7 +7,7 @@ export default [
     Svg: require('@site/static/img/noun-input-1678871.svg').default,
     description: (
       <>
-        The JSON based form declaration is what separates Felwine from other frameworks. Simply give. 
+        The JSON based form declaration is what separates Notifiles from other frameworks. Simply give. 
         The markdown based local posts are standard.
       </>
     ),

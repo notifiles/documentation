@@ -13,14 +13,14 @@ require('dotenv').config()
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Felwine',
+  title: 'Notifiles',
   tagline: 'A feature oriented Node JS framework',
-  url: 'https://felwine.github.io',
+  url: 'https://notifiles.github.io',
   baseUrl: '/documentation',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "felwine", // Usually your GitHub org/user name.
-  projectName: "felwine.github.io", // Usually your repo name.
+  organizationName: "notifiles", // Usually your GitHub org/user name.
+  projectName: "notifiles.github.io", // Usually your repo name.
   // deploymentBranch: 'main',
   trailingSlash: false,
   onBrokenLinks: 'throw',
@@ -102,7 +102,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/felwine/generator-felwine/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/notifiles/generator-notifiles/tree/main/packages/create-docusaurus/templates/shared/',
           // docLayoutComponent: "@theme/DocPage",
           // docItemComponent: "@theme/ApiItem" // derived from docusaurus-theme-openapi-docs
         },
@@ -111,7 +111,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/felwine/generator-felwine/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/notifiles/generator-notifiles/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -142,7 +142,7 @@ const config = {
       matomo: {
         // matomoUrl: (process.env.MATOMO_URL && process.env.MATOMO_URL.length) ? process.env.MATOMO_URL : 'https://your.matomo.instance/',
         // siteId: (process.env.MATOMO_SITE_ID && process.env.MATOMO_SITE_ID.length) ? process.env.MATOMO_SITE_ID : 'ID',
-        matomoUrl: "https://matomo.felwine.app/",
+        matomoUrl: "https://matomo.notifiles.app/",
         siteId: 1,
         phpLoader: 'matomo.php',
         jsLoader: 'matomo.js',
@@ -158,7 +158,7 @@ const config = {
         }
       },
       navbar: {
-        title: 'Felwine',
+        title: 'Notifiles',
         logo: {
           alt: 'Logo',
           src: 'img/icon.png',
@@ -219,7 +219,7 @@ const config = {
           // {
           //   position: 'right',
           //   label: 'Registry',
-          //   href: 'https://felwine.app',
+          //   href: 'https://notifiles.app',
           // },
           // {
           //   type: 'doc',
@@ -249,7 +249,7 @@ const config = {
           //   to: '/blog', label: 'Blog', position: 'left'
           // },
           {
-            href: 'https://github.com/felwine',
+            href: 'https://github.com/notifiles',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
@@ -311,18 +311,18 @@ const config = {
           //     },
           //     // {
           //     //   label: 'GitHub',
-          //     //   href: 'https://github.com/felwine/felwine-parse',
+          //     //   href: 'https://github.com/notifiles/notifiles-parse',
           //     // },
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Felwine Community. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Notifiles Community. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      metadata: [{ name: 'felwine-parse', content: 'felwine, parse-server, nodejs' }],
+      metadata: [{ name: 'notifiles-parse', content: 'notifiles, parse-server, nodejs' }],
     }),
 };
 

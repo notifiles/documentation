@@ -24,9 +24,9 @@ export default ({ noLink = false,
             space-y-2
             `}>
         <li className=''>A feature is an independent and agnostic module that delivers a high level functionality by handling its complete lifecycle and accessing a set of server resources via Engine APIs</li>
-        <li className=''>A model is the database representation of a table, when used in a feature it can incorporate a Felwine.App.Object subclass</li>
-        <li className=''>A Felwine Engine is a module that serves as a bridge to an actual Node JS framework that will handle the actual routing, database management etc</li>
-        <li className=''>An Felwine Engine API is a set of coherent apis that fill a certain high level need like Object, Query, ...</li>
+        <li className=''>A model is the database representation of a table, when used in a feature it can incorporate a Notifiles.App.Object subclass</li>
+        <li className=''>A Notifiles Engine is a module that serves as a bridge to an actual Node JS framework that will handle the actual routing, database management etc</li>
+        <li className=''>An Notifiles Engine API is a set of coherent apis that fill a certain high level need like Object, Query, ...</li>
       </ul>
       {!noLink && <p>
         <Link

@@ -6,7 +6,7 @@ export default [
     Svg: require('@site/static/img/noun-api-6001992.svg').default,
     description: (
       <>
-        Every feature is totally independent from other features, yet it can call Felwine's standardized api for sending emails or push notifications. A dedicated feature can register to Felwine for delivering those messages.
+        Every feature is totally independent from other features, yet it can call Notifiles's standardized api for sending emails or push notifications. A dedicated feature can register to Notifiles for delivering those messages.
       </>
     ),
   },
@@ -15,7 +15,7 @@ export default [
     Svg: require('@site/static/img/noun-boxes-4275784.svg').default,
     description: (
       <>
-        A dedicated system entry in every feature allows for a custom docker-compose based infrastructure needed by the feature. The Felwine server will automatically assign free ports and run docker containers if a feature needs them.
+        A dedicated system entry in every feature allows for a custom docker-compose based infrastructure needed by the feature. The Notifiles server will automatically assign free ports and run docker containers if a feature needs them.
       </>
     ),
   },

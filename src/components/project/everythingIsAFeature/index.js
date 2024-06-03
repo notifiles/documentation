@@ -38,10 +38,10 @@ export default () => {
           max-w-4xl
         `}>
           <h2 className='text-4xl'>
-            {`Everything is a feature in Felwine 🐝 🍯`} <i></i>
+            {`Everything is a feature in Notifiles 🐝 🍯`} <i></i>
           </h2>
           <p className={`text-lg `}>
-            Felwine was built from the ground up to use features in all ways possible. The <b>Felwine app</b> itself is a feature (app feature). The Felwine server uses core features like <i>manualable</i>, <i>disposableorphans</i> and more.
+            Notifiles was built from the ground up to use features in all ways possible. The <b>Notifiles app</b> itself is a feature (app feature). The Notifiles server uses core features like <i>manualable</i>, <i>disposableorphans</i> and more.
           </p>
           {/* <div className={``}>
             <Link

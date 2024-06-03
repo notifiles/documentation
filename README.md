@@ -1,9 +1,9 @@
-# Felwine Documentation
+# Notifiles Documentation
 
 > [!WARNING]
-> Felwine is still experimental and its api may change in the future.
+> Notifiles is still experimental and its api may change in the future.
 
-Felwine documentation source code for [https://docs.felwine.app](https://docs.felwine.app)
+Notifiles documentation source code for [https://docs.notifiles.app](https://docs.notifiles.app)
 
 ![logo](/static/img/polar-bear-4.png)
 
@@ -11,7 +11,7 @@ Felwine documentation source code for [https://docs.felwine.app](https://docs.fe
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
-**Felwine** is a Node JS CLI framework built on top of yargs.
+**Notifiles** is a Node JS CLI framework built on top of yargs.
 
 Main features:
 - Quick start 🚀 and Plug & Play Node JS framework

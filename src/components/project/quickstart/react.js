@@ -4,15 +4,15 @@ import CodeBlock from '@theme/CodeBlock'
 export default ({ }) => <div class={`                     
         `}>
   <p className={`text-lg font-bold`}>
-    1. Install felwine and a component library
+    1. Install notifiles and a component library
   </p>
-  <BashTabs npm={`npm install -g felwine`} />
+  <BashTabs npm={`npm install -g notifiles`} />
 
   <p className={`text-lg font-bold`}>
     2. Create a project
   </p>
   <CodeBlock language="bash">
-    {`felwine new`}
+    {`notifiles new`}
   </CodeBlock>
 
   <p className={`text-lg font-bold`}>
@@ -20,7 +20,7 @@ export default ({ }) => <div class={`
   </p>
 
   <CodeBlock language="bash">
-    {`felwine platform add`}
+    {`notifiles platform add`}
   </CodeBlock>
   
   <p className={`text-lg font-bold mb-2`}>
@@ -28,7 +28,7 @@ export default ({ }) => <div class={`
   </p>
   The post is written in markdown, you can add images and tables.
   <CodeBlock language="bash">
-    {`felwine post new`}
+    {`notifiles post new`}
   </CodeBlock>
   
   
@@ -36,7 +36,7 @@ export default ({ }) => <div class={`
     5. Sync the project
   </p>
   <CodeBlock language="bash">
-    {`felwine sync`}
+    {`notifiles sync`}
   </CodeBlock>
  
 </div>

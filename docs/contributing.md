@@ -6,27 +6,27 @@ sidebar_position: 7
 
 ![logo](/img/icon_xs.svg)
 
- Contributing to Felwine
+ Contributing to Notifiles
 
 :+1::tada: **THANK YOU** for taking the time to contribute! :tada::+1:
 
-The following is a set of guidelines for contributing to Felwine and all projects in the [felwine organization](https://github.com/felwine) on GitHub. Although these are strongly encouraged guidelines, nothing about this project is set in stone, if you believe something here should be edited, open a pull request to start a discussion about it.
+The following is a set of guidelines for contributing to Notifiles and all projects in the [notifiles organization](https://github.com/notifiles) on GitHub. Although these are strongly encouraged guidelines, nothing about this project is set in stone, if you believe something here should be edited, open a pull request to start a discussion about it.
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Felwine Code of Conduct](codeofconduct.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the contact method in the [Code of Conduct](codeofconduct.md).
+This project and everyone participating in it is governed by the [Notifiles Code of Conduct](codeofconduct.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the contact method in the [Code of Conduct](codeofconduct.md).
 
 ## What should I know before I get started?
 
 ### Documentation
 
-All of the documentation for the project is housed within the `docs/docs` folder. The general website is housed within the `docs` folder. It is important while contributing to Felwine to ensure that the documentation is complete, up to date, and helpful.
+All of the documentation for the project is housed within the `docs/docs` folder. The general website is housed within the `docs` folder. It is important while contributing to Notifiles to ensure that the documentation is complete, up to date, and helpful.
 
 ### Resources
 
 It is highly encouraged to read through the following resources before contributing.
 
-- [Website](https://felwine.app)
+- [Website](https://notifiles.app)
 
 ## How Can I Contribute?
 
@@ -52,11 +52,11 @@ It is highly recommended (although not required) to follow the pattern below bef
 
 1. **Identify a need in the project** - This can be a bug, feature request, or other change.
 2. **Create a detailed issue to gauge interest** - Although most pull requests are merged, we don't want you to waste time creating a pull request that doesn't have the support of the community. This doesn't mean that even if the community supports an issue that the corresponding pull request will be merged, but it increases the chances with community support. *This step is highly encouraged for larger contributions, but not required. For smaller contributions (typos, adding tests, updating documentaion, minor code changes, etc.) it is not necessary to create a separate issue.*
-3. **Read through the `package.json`** - The `package.json` file in the root of the repository has a **lot** of useful information about the project. Especially read through the `scripts` section, as a lot of those scripts can help speed up your development process when working in Felwine. There are scripts for running tests, building the website, debugging code, fixing lint issues, etc.
+3. **Read through the `package.json`** - The `package.json` file in the root of the repository has a **lot** of useful information about the project. Especially read through the `scripts` section, as a lot of those scripts can help speed up your development process when working in Notifiles. There are scripts for running tests, building the website, debugging code, fixing lint issues, etc.
 
 #### During
 
-1. **Create a fork & branch** - Before contributing to Felwine you must create a fork of the [main repository](https://github.com/felwine/felwine) and create a branch on your fork. It is highly discouraged from using a primary branch (ex. `main` or `alpha`) to make your changes. This is due to the fact that if you enable `Allow edits from maintainers` option, maintainers might commit directly to your primary branch which could cause problems if others are using your fork in their applications.
+1. **Create a fork & branch** - Before contributing to Notifiles you must create a fork of the [main repository](https://github.com/notifiles/notifiles) and create a branch on your fork. It is highly discouraged from using a primary branch (ex. `main` or `alpha`) to make your changes. This is due to the fact that if you enable `Allow edits from maintainers` option, maintainers might commit directly to your primary branch which could cause problems if others are using your fork in their applications.
 2. **Install dependencies** - Run `npm install` to install all the dependencies of the project.
 3. **Maintain consistency throughout** - While working in the project, we highly encourage you to maintain the same coding style that the rest of the project uses. This means looking around at similar code and trying to adopt the same style and conventions in your code.
 4. **Run tests & linter often** - It is highly encouraged to run `npm test` & `npm run lint` often to ensure you are conforming to the project guidelines. In order for a pull request to be merged all tests must pass, the linter must throw no errors, and test code coverage must not decrease.
@@ -66,8 +66,8 @@ It is highly recommended (although not required) to follow the pattern below bef
 	3. **No Log Output** - It is also important that your tests do not print any output to the console or logs, this includes `console.log`, UncaughtPromiseExceptions, etc. All logs printed should come directly from Jest.
 	4. **One Test Must Fail Prior to Code Changes** - At *least* one test you write should fail without the code changes you have made.
 	5. **Self Contained and Static** - All tests should be self contained and should not rely on each other in order to pass. All tests must also be static and have no potential of failing based on random or outside factors.
-	6. **Logic inside Jest Blocks** - All test logic should take place within Jest blocks (ex. `it`, `before`, `beforeEach`, `after` or `afterEach`). No interaction with Felwine or outside references should take place outside of those blocks (ex. you should not create models or schemas in the global or `describe` scope).
-6. **Update documentation** - For anything that effects users using Felwine, documentation should be added/deleted/modified to reflect the changes you have made. It is important to ensure the documentation you write is as clear as possible, giving examples, and attempting to answer as many relevant questions as possible. For most cases JSDoc documentation should be added to the source files, and a pointer to the JSDoc documentation should be added to the relevant file in `docs/docs_src`. The pointer should look like `dyno_jsdoc_dist/SOURCEFILEPATH|SECTIONNAME` (for example: `dyno_jsdoc_dist/Model/index.js|model.name` will point to the `dist/Model/index.js` source file, and use the documentation for `model.name`). All pointers should point to the `dist` folder. In certain cases where the documentation does not reference a specific property or method in the code, it is fine to just write the documentation in the `docs/docs_src` folder (an example of this would be the `Attribute Types` section in the Schema documentation).
+	6. **Logic inside Jest Blocks** - All test logic should take place within Jest blocks (ex. `it`, `before`, `beforeEach`, `after` or `afterEach`). No interaction with Notifiles or outside references should take place outside of those blocks (ex. you should not create models or schemas in the global or `describe` scope).
+6. **Update documentation** - For anything that effects users using Notifiles, documentation should be added/deleted/modified to reflect the changes you have made. It is important to ensure the documentation you write is as clear as possible, giving examples, and attempting to answer as many relevant questions as possible. For most cases JSDoc documentation should be added to the source files, and a pointer to the JSDoc documentation should be added to the relevant file in `docs/docs_src`. The pointer should look like `dyno_jsdoc_dist/SOURCEFILEPATH|SECTIONNAME` (for example: `dyno_jsdoc_dist/Model/index.js|model.name` will point to the `dist/Model/index.js` source file, and use the documentation for `model.name`). All pointers should point to the `dist` folder. In certain cases where the documentation does not reference a specific property or method in the code, it is fine to just write the documentation in the `docs/docs_src` folder (an example of this would be the `Attribute Types` section in the Schema documentation).
 7. **Commit small & often** - Please commit changes often and keep commit size to a minimum. It is highly discouraged from creating one massive commit with all of your changes in it. Every commit should also aim to pass the linter and tests. Commit messages should also be detailed enough to give a good explanation of the change made. Commit messages such as `changes` or `did stuff` are considered **poor** commit messages.
 
 #### After
@@ -78,17 +78,17 @@ It is highly recommended (although not required) to follow the pattern below bef
 
 #### Release
 
-Felwine does not currently have a release schedule that we conform to. We attempt to batch work into a release every so often. If you have a need that requires us releasing a version sooner, please notify us, and we will attempt to cut a new release earlier (however this is not guaranteed, and you are still welcome to point to a branch in NPM if we are unable to release on your timeline).
+Notifiles does not currently have a release schedule that we conform to. We attempt to batch work into a release every so often. If you have a need that requires us releasing a version sooner, please notify us, and we will attempt to cut a new release earlier (however this is not guaranteed, and you are still welcome to point to a branch in NPM if we are unable to release on your timeline).
 
-### Translate Felwine
+### Translate Notifiles
 
-You can help Felwine support more languages by translating our content into other languages. You can contribute by viewing our [Crowdin project page](https://crowdin.com/project/ovidejscom) and start translating today!
+You can help Notifiles support more languages by translating our content into other languages. You can contribute by viewing our [Crowdin project page](https://crowdin.com/project/ovidejscom) and start translating today!
 
 ## How do I become a project maintainer?
 
-At this time we are pretty strict in terms of who gets write/merge access to Felwine. The following are general guidelines we look for before granting those permissions, but other factors may apply depending on the situation.
+At this time we are pretty strict in terms of who gets write/merge access to Notifiles. The following are general guidelines we look for before granting those permissions, but other factors may apply depending on the situation.
 
-1. **Activity** - Likely the most important factor is we need to see you remain active on the project for an extended period of time. We want maintainers to be active and although we don't require maintainers to dedicated all their time to Felwine, we are looking for maintainers to be active in the community.
+1. **Activity** - Likely the most important factor is we need to see you remain active on the project for an extended period of time. We want maintainers to be active and although we don't require maintainers to dedicated all their time to Notifiles, we are looking for maintainers to be active in the community.
 2. **Contributions** - We are looking for project maintainers to be active in contributing feedback, features, bug fixes, documentation improvements, and more to the project. Short version: we want project maintainers to show that they are dedicated to improving the project.
 
 In short, some starting tips towards becoming a project maintainer include:
@@ -105,10 +105,10 @@ It is also important to note that if you become a project maintainer, and become
 
 ## What do project maintainers need to know?
 
-The following section is unlikely to be useful to general contributors to Felwine, and is reserved for project maintainers.
+The following section is unlikely to be useful to general contributors to Notifiles, and is reserved for project maintainers.
 
 ### Release
 
-In order to release a version of Felwine you can kick off this process by running `node publish`. This will kick off the release process. Following the steps it guides you through should lead to a successful release. Please [contact me](https://charlie.fish/contact) or message me on the Felwine Slack (Charlie Fish) if you have questions or run into any issues.
+In order to release a version of Notifiles you can kick off this process by running `node publish`. This will kick off the release process. Following the steps it guides you through should lead to a successful release. Please [contact me](https://charlie.fish/contact) or message me on the Notifiles Slack (Charlie Fish) if you have questions or run into any issues.
 
 It is important to note that you must have write permissions to the `main` branch in order for this process to be successful.

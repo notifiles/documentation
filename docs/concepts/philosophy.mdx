@@ -10,14 +10,14 @@ sidebar_position: 0
 Forms are hard. They are tough to get right and maintain. We usually end up with dozens of form artefacts spread across our projects, from inputs, styling, validation, submission logic, user input behavior, etc.
 We used Formik as our main form management library, it is a great way for writing form inputs and manage their lifecycle. 
 But what if we want to reuse the whole reasonning that goes with creating a one, fully functional form, to other views in our app?
-The answer to that question if what led to the creation of **Felwine**.
+The answer to that question if what led to the creation of **Notifiles**.
 
-## What is Felwine?
-Felwine aims to simplify form building across various front-end frameworks.
-Felwine is not a form library itself, it defines a protocol for defining form inputs as a sole source of truth (data type, behaviour, validation) in json.
-That definition can be interpreted by any felwine engine on any compatible front-end framework.
+## What is Notifiles?
+Notifiles aims to simplify form building across various front-end frameworks.
+Notifiles is not a form library itself, it defines a protocol for defining form inputs as a sole source of truth (data type, behaviour, validation) in json.
+That definition can be interpreted by any notifiles engine on any compatible front-end framework.
 Any input declares the component type it needs to collect the user's input.
-Any Felwine engine renders the said input by requesting the component from libraries (components) and rendering them with a standardized api.
+Any Notifiles engine renders the said input by requesting the component from libraries (components) and rendering them with a standardized api.
 
 
 
@@ -50,7 +50,7 @@ Wikipedia
 ### Extreme refactoring
 <i>Refactor mercilessly</i>
 <br/>
-Felwine takes refactoring to the extreme by decluttering the app from the underlying features that different models use into a single package called feature.
+Notifiles takes refactoring to the extreme by decluttering the app from the underlying features that different models use into a single package called feature.
 Contrarily to a middleware or an extension, a feature is a high level, conventioned, Predictable and versioned piece of code that provides a functional feature. 
 Extreme refactoring with features yield extreme reusability from the ground-up by instilling a feature driven culture in your teams.
 <br/>
@@ -71,8 +71,8 @@ By respecting these restrictions, functional programming aims to write code that
 - Formik
 
 
-## Should you use Felwine?
+## Should you use Notifiles?
 
-Felwine is likely a good fit for you if
+Notifiles is likely a good fit for you if
 - You want to quickly build a form for your project
 - You want to reuse an input over different forms without copying it over and over

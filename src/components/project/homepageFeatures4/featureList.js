@@ -6,7 +6,7 @@ export default [
     Svg: require('@site/static/img/noun-snakeflow-schema-5160494.svg').default,
     description: (
       <>
-        Felwine automatically merges the user defined app schema with the features' schema.
+        Notifiles automatically merges the user defined app schema with the features' schema.
       </>
     ),
   },
@@ -25,7 +25,7 @@ export default [
     Svg: require('@site/static/img/noun-release-5004142.svg').default,
     description: (
       <>
-        Felwine proposes a rolling deployment using an arbiter so that you don't mistakenly put undesired schema in production. When using this mode, both a /felwine and a /ovidestaging endpoints are exposed with separate databases for testing.
+        Notifiles proposes a rolling deployment using an arbiter so that you don't mistakenly put undesired schema in production. When using this mode, both a /notifiles and a /ovidestaging endpoints are exposed with separate databases for testing.
       </>
     ),
   },

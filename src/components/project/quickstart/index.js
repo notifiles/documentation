@@ -13,7 +13,7 @@ export default ({ hideTitle = false }) => <div class={`
         `}>
       <h2 className='text-4xl'>{`Quick start 🚀`}</h2>
       <p className={`text-lg italic`}>
-            Let's build a felwine project.
+            Let's build a notifiles project.
       </p>
       <ReactView />
     </div>

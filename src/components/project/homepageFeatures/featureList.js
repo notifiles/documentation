@@ -6,7 +6,7 @@ export default [
     Svg: require('@site/static/img/noun-bee-4883469.svg').default,
     description: (
       <>
-        Felwine is a Node JS framework built on top of Express JS and Parse Server and tailored for features. It provides a concise, easy to use and scalable template to get the best of Parse Server and features.
+        Notifiles is a Node JS framework built on top of Express JS and Parse Server and tailored for features. It provides a concise, easy to use and scalable template to get the best of Parse Server and features.
       </>
     ),
   },
@@ -15,7 +15,7 @@ export default [
     Svg: require('@site/static/img/noun-stack-1155174.svg').default,
     description: (
       <>
-        Felwine streamlines the server development by separating every "groupable" logic to be a feature, so that it is naturally extracted from the base code and possibly migrated into its own package
+        Notifiles streamlines the server development by separating every "groupable" logic to be a feature, so that it is naturally extracted from the base code and possibly migrated into its own package
       </>
     ),
   },

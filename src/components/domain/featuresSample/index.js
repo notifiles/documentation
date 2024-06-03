@@ -42,7 +42,7 @@ export default props => {
             {`Community features 🐝 🍯`} <i></i>
           </h2>
           <p className={`text-lg `}>
-            Felwine was built from the ground up to use features in all ways possible. The <b>Felwine app</b> itself is a feature (app feature). The Felwine server uses core features like <i>manualable</i>, <i>disposableorphans</i> and more.
+            Notifiles was built from the ground up to use features in all ways possible. The <b>Notifiles app</b> itself is a feature (app feature). The Notifiles server uses core features like <i>manualable</i>, <i>disposableorphans</i> and more.
           </p>
           <div className="
             mb-6 
@@ -51,9 +51,9 @@ export default props => {
             px-4    
             justify-center
           ">
-            <FeatureWidget id={'@felwine-community/framable'} mode="minimal" />
-            <FeatureWidget id={'@felwine-community/framable'} mode="minimal" />
-            <EngineWidget id={'@felwine/parse-server-engine'} mode="minimal" />
+            <FeatureWidget id={'@notifiles-community/framable'} mode="minimal" />
+            <FeatureWidget id={'@notifiles-community/framable'} mode="minimal" />
+            <EngineWidget id={'@notifiles/parse-server-engine'} mode="minimal" />
 
           </div>
         </div>

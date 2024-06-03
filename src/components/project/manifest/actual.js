@@ -31,7 +31,7 @@ justify-center
         <Link
           className="button button--secondary button--md"
           to="/docs/concepts/philosophy">
-          Read more about Felwine philosophy
+          Read more about Notifiles philosophy
         </Link>
       </p>}
     </div>
