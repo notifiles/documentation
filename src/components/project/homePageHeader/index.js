@@ -6,6 +6,7 @@ import LogoStatic from '../logo/static/index.svg'
 export default () => {
   const { siteConfig } = useDocusaurusContext()
   return  <div class={`
+        mt-4
         md:mt-16
         md:mb-2
         px-6
