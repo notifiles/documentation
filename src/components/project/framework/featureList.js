@@ -14,7 +14,7 @@ export default [
     url: '/docs/concepts'
   },
   {
-    title: 'Archival',
+    title: 'Git based & Archival',
     Svg: require('@site/static/img/noun-photo-5578498.svg').default,
     // Svg: require('@site/static/img/noun-question-3323941.svg').default,
     description: (
@@ -31,7 +31,7 @@ export default [
     // Svg: require('@site/static/img/noun-settings-1269041.svg').default,
     description: (
       <>
-        The component libraries system makes it easy to use a feature team, a project, a company or a community library to jump start a project.
+      Host your templates on Minio, Bunny, and more (upcoming) and access them easily on your server.        
       </>
     ),
   },
