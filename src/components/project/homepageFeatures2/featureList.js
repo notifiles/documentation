@@ -2,8 +2,8 @@ import React from 'react';
 
 export default [
   {
-    title: 'Break the Form into Small Reusable Components',
-    Svg: require('@site/static/img/noun-strategic-3754842.svg').default,
+    title: 'i18n built-in',
+    Svg: require('@site/static/img/noun-language-5148417.svg').default,
     description: (
       <>
         One of the fundamental principles of React is the concept of componentization. Apply this principle to your forms by breaking them down into small, reusable components.
@@ -11,20 +11,20 @@ export default [
     ),
   },
   {
-    title: 'Yup validation',
-    Svg: require('@site/static/img/noun-check-3754833.svg').default,
+    title: 'React Email',
+    Svg: require('@site/static/img/react-email.svg').default,
     description: (
       <>
-        Yup is a schema builder for runtime value parsing and validation. Define a schema, transform a value to match, assert the shape of an existing value, or both. Yup schema are extremely expressive and allow modeling complex, interdependent validations, or value transformation.
+        By using [[key]] directives you can automatically build translated versions of your templates.
       </>
     ),
   },
   {
-    title: 'Formik underneath',
-    Svg: require('@site/static/img/formik.svg').default,
+    title: 'Handlebars templating',
+    Svg: require('@site/static/img/handlebars-svgrepo-com.svg').default,
     description: (
       <>
-        On React we use the powerful Formik library for rendering the inputs. Formik is the world's most popular open source form library for React and React Native.
+        Handlebars provides the power necessary to let you build semantic templates effectively with no frustration.
       </>
     ),
   },
