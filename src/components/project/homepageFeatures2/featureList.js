@@ -15,7 +15,7 @@ export default [
     Svg: require('@site/static/img/react-email.svg').default,
     description: (
       <>
-        By using [[key]] directives you can automatically build translated versions of your templates.
+        By using the <i>[[key]]</i> directives you can automatically build translated versions of your templates.
       </>
     ),
   },
