@@ -7,7 +7,7 @@ export default (props) => {
         fill={`${isDarkTheme ? 'white' : 'black'}`
         }
         className={`          
-    w-[1828px]
+    w-[182px]
     h-[140px]`}
         role="img" />
 }
