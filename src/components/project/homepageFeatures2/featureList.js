@@ -21,7 +21,7 @@ export default [
   },
   {
     title: 'Handlebars templating',
-    Svg: require('@site/static/img/handlebars-svgrepo-com.svg').default,
+    Svg: require('@site/static/img/noun-moustache-1372818.svg').default,
     description: (
       <>
         Handlebars provides the power necessary to let you build semantic templates effectively with no frustration.
