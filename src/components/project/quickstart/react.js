@@ -1,42 +1,35 @@
 import React from 'react'
-import BashTabs from '@site/src/components/generic/bashTabs'
 import CodeBlock from '@theme/CodeBlock'
+
 export default ({ }) => <div class={`                     
         `}>
   <p className={`text-lg font-bold`}>
-    1. Install notifiles and a component library
-  </p>
-  <BashTabs npm={`npm install -g notifiles`} />
-
-  <p className={`text-lg font-bold`}>
-    2. Create a project
+    1. Create a project
   </p>
   <CodeBlock language="bash">
-    {`notifiles new`}
+    {`npx notifiles app new`}
   </CodeBlock>
 
   <p className={`text-lg font-bold`}>
-    3. Add a platform (optional)
+    2. Add a cloud storage (minio)
   </p>
 
   <CodeBlock language="bash">
-    {`notifiles platform add`}
+    {`npx notifiles cloud add --cloudType minio`}
   </CodeBlock>
   
   <p className={`text-lg font-bold mb-2`}>
-    4. Create an article
+    4. Create a template
   </p>
-  The post is written in markdown, you can add images and tables.
   <CodeBlock language="bash">
-    {`notifiles post new`}
+    {`npx notifiles template new`}
   </CodeBlock>
   
   
   <p className={`text-lg font-bold`}>
-    5. Sync the project
+    5. Build and sync the project to minio
   </p>
   <CodeBlock language="bash">
-    {`notifiles sync`}
+    {`npx notifiles sync`}
   </CodeBlock>
- 
 </div>

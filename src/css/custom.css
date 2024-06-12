@@ -14,9 +14,9 @@
  /* https://docusaurus.io/docs/guides/styling-layout */
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #27ADCA;
-  --ifm-color-primary-dark: #27ADCA;
-  --ifm-color-primary-darker: #e14d28;
+  --ifm-color-primary: #FF5C4B;
+  --ifm-color-primary-dark: #FF5C4B;
+  --ifm-color-primary-darker: #FF5C4B;
   --ifm-color-primary-darkest: #c03c1a;
   --ifm-color-primary-light: #eb866c;
   --ifm-color-primary-lighter: #ed917a;
