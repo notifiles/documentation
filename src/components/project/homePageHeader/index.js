@@ -32,8 +32,8 @@ export default () => {
           pt-8     
           max-w-md
         `}>
-          <h1 className='text-6xl'>
-            <i className='text-gray-600 dark:text-gray-400'></i>  {`${siteConfig.title}`}
+          <h1 className='text-8xl text-[#00ABAC] dark:text-gray-400'>            
+            {`${siteConfig.title}`}
             <br /> 
             <i className='text-3xl 
             leading-tight 
