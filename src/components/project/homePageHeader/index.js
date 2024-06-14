@@ -43,9 +43,9 @@ export default () => {
             </i>
           </h1>
           <p className={`text-lg `}>
-            <b>Local-first</b>, <b>git-based</b> message templating made right.
+            Open source, <b>local-first</b>, <b>git-based</b> message templating made right.
             An open source library for writing platform agnostic <b>email</b>, <b>text message</b> and <b>push notifications</b> templates.
-            Every template is <b>self contained</b> and can be published to 
+            Every template is consolidated, <b>self contained</b> and can be published to 
             numerous online platforms including <b>Minio</b> and <b>Bunny.net</b>.
             Take control of your templates without concessions.            
             <br />
