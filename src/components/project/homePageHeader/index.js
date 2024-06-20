@@ -32,7 +32,7 @@ export default () => {
           pt-8     
           max-w-md
         `}>
-          <h1 className='md:text-8xl text-6xl font-bold text-[#00ABAC] '>            
+          <h1 className='md:text-8xl text-6xl font-bold  '>            
             {`${siteConfig.title}`}
             <br /> 
             <i className='text-3xl 
